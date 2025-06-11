@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Luciana's Awesome Website</title>
-        <h1 id="title" >Luciana's Awesome Website</h1>
-        <link rel="stylesheet" href="main.css">
+        <title>Luciana's Awesome Website!</title>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/click.js"></script>
     </head>
     <body>
-        <h2>Hello!</h2>
-        <p id="intro" >Hello! My name is Luciana and this is my awesome website</p>
+        <h1 id="title" >Luciana's Awesome Website</h1>
         
-        <p>This is what I have been listening to as of late:</p>
-        
-        <!--Spotify link-->
-        <iframe
-        style="border-radius:12px"
-        src="https://open.spotify.com/embed/playlist/44rQqwyypGZWFXWP0qukbv?utm_source=generator"
-        width="50%"
-        height="352"
-        frameBorder="0"
-        allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy">
-        </iframe>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="mango.html">mango</a></li>
+            </ul>
+        </nav>
 
+        <main>
+            <h2>Hello!</h2>
+            <p id="intro" >My name is Luciana and this is my awesome website</p>
+        
+            <p>This is what I have been listening to as of late:</p>
+            <!--Spotify link-->
+            <iframe
+            style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/44rQqwyypGZWFXWP0qukbv?utm_source=generator"
+            width="50%"
+            height="352"
+            frameBorder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy">
+            </iframe>
+            </main>
     </body>
 </html>
+
+
+
+<!--<button type="button" onclick="alert('Hello world!')">Click Me!</button>-->
